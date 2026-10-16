@@ -79,3 +79,43 @@ $ python src/build_report.py --demo
 - 运行 `python src/fetch_ledger.py --preset orders` 拉取真实订单；
 - 运行 `python src/build_report.py` 生成真实年度报告，并回填 README 效果图；
 - 于 2026-10-25 23:59 前在官方仓库用指定 Issue 模板提交报名。
+
+## 6. Token 到位后的真实数据开发（2026-10-16 18:00 后）
+
+用户提供 MCP Token，进入真实数据联调。WorkBuddy 的动作与关键发现：
+
+1. `--list-tools` 实测连通：服务端返回 **35 个工具**（早于官方 README 的 30+），
+   工具描述已是新版分节格式（When / Input / Next / Preconditions）。
+2. `--preset orders` 拉取四个工具成功。但暴露出 md 版 README 未写的问题：
+   - `order-list` **无入参**，返回全量；`mall-order-list` 返回 `hasNext=false, list=[]`（空）。
+   - 订单仅 4 笔（2026-04-21 至 2026-10-13），门店集中在深圳两家。
+   - **`realTotalAmount` / `totalAmount` 全为 `"0"`**，列表接口不回商品原价。
+
+3. 定位到解决方案：`query-order`（需 orderId）逐单查详情，实测返回
+   `productPrice: "39.5"`、`couponList: [{couponName: "麦香鸡三件套", discountAmount: "39.5"}]`、
+   `takeWay: "堂食"`、`storeAddress`。即实付为 0 是用券全额抵扣，原价 39.5。
+
+   由此确定金额口径：原价取 `productPrice`，实付取 `realTotalAmount`，节省 = 原价 − 实付，
+   报告首页结论从"花了多少钱"改为"**麦当劳请了你多少顿**"。
+
+4. 新增 `src/enrich_orders.py`：对每笔订单调 `query-order`，合并详情字段，落盘
+   `data/raw/order-list-enriched.json`，支持 `--redact` 不保存门店详细地址。
+
+5. 重构 `src/ledger.py`：字段匹配改为**按 hint 优先级**（修掉门店误取 `storeCode`
+   显示为 "1420825" 的 bug）；新增优惠券、就餐方式、积分账户维度。
+
+6. 重构 `src/build_report.py`：新增原价/实付对比 hero 区、优惠券明细表、就餐方式分布、
+   积分账户表；Excel 扩到 10 个 sheet；新增 `--redact` 脱敏模式（门店只保留城市与类型，
+   隐去地名与门店编码）。
+
+7. 产物：
+   - 本地完整版：`out/annual-report.html` + `out/mcd-order-ledger.xlsx`（含真实门店名，不外传）
+   - 仓库展示版：`docs/report-preview.html`（真实数据、门店脱敏）与 `docs/demo-report.html`
+     （虚构数据完整效果），用于 GitHub Pages 在线预览。
+   - 脱敏校验通过：预览版不含门店地址、不含订单号、门店仅显示"麦当劳深圳·某门店"等。
+
+8. 真实数据结论（已写入 README）：4 笔订单，原价 ¥173.50，实付 ¥0.00，节省 100%；
+   麦香鸡三件套 ×3，全为晚餐堂食；麦享会可用积分 357.7。
+
+9. 合规复核：`.env`、`data/raw/`、`out/` 均已在 `.gitignore`；
+   仓库内所有文件扫描无 Token、无门店地址、无订单号。

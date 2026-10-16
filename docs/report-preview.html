@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>我的麦麦年度账单</title>
+<style>
+  :root { --gold: #FFC72C; --red: #DA291C; --ink: #292726; }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 32px 16px 64px; background: #FFFDF7; color: var(--ink);
+         font-family: -apple-system, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  header { background: var(--red); color: #fff; border-radius: 16px; padding: 28px 24px; }
+  header h1 { margin: 0 0 8px; font-size: 26px; font-weight: 600; }
+  header p { margin: 0; font-size: 14px; opacity: .92; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 20px 0; }
+  .card { background: #fff; border: 1px solid #EFE6D2; border-radius: 12px; padding: 16px; }
+  .card-label { font-size: 13px; color: #6B6A67; }
+  .card-value { font-size: 23px; font-weight: 600; margin-top: 6px; }
+  section { background: #fff; border: 1px solid #EFE6D2; border-radius: 12px; padding: 20px; margin-top: 16px; }
+  section h2 { margin: 0 0 16px; font-size: 17px; font-weight: 600; }
+  section h2 span { font-size: 13px; font-weight: 400; color: #9A988F; margin-left: 8px; }
+  ul { margin: 0; padding-left: 20px; line-height: 1.95; font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid #F2ECDC; }
+  th { color: #6B6A67; font-weight: 500; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .note { font-size: 12px; color: #9A988F; margin-top: 12px; line-height: 1.7; }
+  footer { margin-top: 24px; font-size: 12px; color: #9A988F; line-height: 1.8; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>我的麦麦年度账单</h1>
+  <p>2026-04-21 至 2026-10-13 · 共 4 笔订单</p>
+</header>
+<div class="cards"><div class="card"><div class="card-label">实际支付</div><div class="card-value" style="color:#DA291C">¥0.00</div></div><div class="card"><div class="card-label">原价合计</div><div class="card-value" style="color:#292726">¥173.50</div></div><div class="card"><div class="card-label">省下的钱</div><div class="card-value" style="color:#3B7D3B">¥173.50</div></div><div class="card"><div class="card-label">订单数</div><div class="card-value" style="color:#292726">4</div></div></div>
+<section><h2>麦当劳请你吃了多少顿<span>原价 vs 实付，省下 100.0%</span></h2><svg viewBox="0 0 660 96" width="100%" role="img" aria-label="原价与实付对比"><text x="0" y="26" font-size="13" fill="#292726">原价</text><rect x="90" y="12" width="440.0" height="22" rx="4" fill="#B4B2A9"/><text x="538.0" y="28" font-size="13" fill="#6B6A67">¥173.50</text><text x="0" y="66" font-size="13" fill="#292726">实付</text><rect x="90" y="52" width="3.0" height="22" rx="4" fill="#DA291C"/><text x="101.0" y="68" font-size="13" fill="#DA291C">¥0.00</text></svg><div class='note'>共 4 笔订单使用了优惠券，累计抵扣 ¥173.50。</div></section>
+<section>
+  <h2>这一年，你和麦当劳</h2>
+  <ul><li>这一年麦当劳请你吃了 4 顿：原价 ¥173.50，实付 ¥0.00，省下 ¥173.50（100.0%）。</li><li>按原价折算，你吃掉了约 6.9 个巨无霸的量。</li><li>最常点的是「麦香鸡三件套」，共 3 份，稳居你的麦麦 C 位。</li><li>你最偏爱的时段是晚餐，贡献了 3 笔订单。</li><li>最常光顾「麦当劳深圳大新时代大厦餐厅」，共 3 笔。</li><li>周二是你的麦麦高频日，共 2 笔。</li><li>堂食是你最常选择的方式，4 笔。</li><li>从 2026-04-21 到 2026-10-13，176 天里平均 44.0 天去一次麦当劳。</li></ul>
+</section>
+<section><h2>月度原价分布<span>按下单月份统计</span></h2><svg viewBox="0 0 660 200" width="100%" role="img" aria-label="月度原价柱状图"><rect x="28.0" y="166.0" width="196.0" height="0.0" rx="3" fill="#DA291C"/><text x="126.0" y="160.0" text-anchor="middle" font-size="11" fill="#292726">0</text><text x="126.0" y="184.0" text-anchor="middle" font-size="11" fill="#6B6A67">04</text><rect x="232.0" y="166.0" width="196.0" height="0.0" rx="3" fill="#DA291C"/><text x="330.0" y="160.0" text-anchor="middle" font-size="11" fill="#292726">0</text><text x="330.0" y="184.0" text-anchor="middle" font-size="11" fill="#6B6A67">08</text><rect x="436.0" y="166.0" width="196.0" height="0.0" rx="3" fill="#DA291C"/><text x="534.0" y="160.0" text-anchor="middle" font-size="11" fill="#292726">0</text><text x="534.0" y="184.0" text-anchor="middle" font-size="11" fill="#6B6A67">10</text></svg></section>
+<section><h2>时段偏好<span>你通常在几点吃麦当劳</span></h2><svg viewBox="0 0 660 78" width="100%" role="img"><text x="0" y="21.0" font-size="13" fill="#292726">晚餐</text><rect x="150" y="9.0" width="420.0" height="17" rx="4" fill="#FFC72C"/><text x="578.0" y="22.0" font-size="12" fill="#6B6A67">3 笔</text><text x="0" y="55.0" font-size="13" fill="#292726">午餐</text><rect x="150" y="43.0" width="140.0" height="17" rx="4" fill="#FFC72C"/><text x="298.0" y="56.0" font-size="12" fill="#6B6A67">1 笔</text></svg></section>
+<section><h2>常点餐品 TOP<span>按累计份数</span></h2><svg viewBox="0 0 660 78" width="100%" role="img"><text x="0" y="21.0" font-size="13" fill="#292726">麦香鸡三件套</text><rect x="150" y="9.0" width="420.0" height="17" rx="4" fill="#FFC72C"/><text x="578.0" y="22.0" font-size="12" fill="#6B6A67">3 份</text><text x="0" y="55.0" font-size="13" fill="#292726">开心双人餐</text><rect x="150" y="43.0" width="140.0" height="17" rx="4" fill="#FFC72C"/><text x="298.0" y="56.0" font-size="12" fill="#6B6A67">1 份</text></svg></section>
+<section><h2>常去门店<span>按订单数</span></h2><table><tr><th>门店</th><th style='text-align:right'>订单数</th><th style='text-align:right'>实付</th></tr><tr><td>麦当劳深圳·某门店</td><td class='num'>3</td><td class='num'>¥0.00</td></tr><tr><td>麦当劳深圳·得来速餐厅</td><td class='num'>1</td><td class='num'>¥0.00</td></tr></table></section>
+<section><h2>优惠券明细<span>抵扣了多少，一笔一笔算给你看</span></h2><table><tr><th>门店</th><th>优惠券</th><th style='text-align:right'>抵扣</th></tr><tr><td>麦当劳深圳·得来速餐厅</td><td>开心双人餐</td><td class='num'>-¥55.00</td></tr><tr><td>麦当劳深圳·某门店</td><td>麦香鸡三件套</td><td class='num'>-¥39.50</td></tr><tr><td>麦当劳深圳·某门店</td><td>麦香鸡三件套</td><td class='num'>-¥39.50</td></tr><tr><td>麦当劳深圳·某门店</td><td>麦香鸡三件套</td><td class='num'>-¥39.50</td></tr></table></section>
+<section><h2>就餐方式<span>堂食 / 外带 / 外送</span></h2><svg viewBox="0 0 660 44" width="100%" role="img"><text x="0" y="21.0" font-size="13" fill="#292726">堂食</text><rect x="150" y="9.0" width="420.0" height="17" rx="4" fill="#FFC72C"/><text x="578.0" y="22.0" font-size="12" fill="#6B6A67">4 笔</text></svg></section>
+<section><h2>麦享会积分账户<span>来自 query-my-account</span></h2><table><tr><th>项目</th><th style='text-align:right'>数值</th></tr><tr><td>可用积分</td><td class='num'>357.7</td></tr><tr><td>累计获得积分</td><td class='num'>932.5</td></tr><tr><td>已使用积分</td><td class='num'>24.0</td></tr><tr><td>即将过期积分</td><td class='num'>22.9</td></tr><tr><td>已过期积分</td><td class='num'>550.8</td></tr></table></section>
+<footer>
+  数据来源：麦当劳中国官方 MCP 服务（order-list / query-order / mall-order-list /
+  list-nutrition-foods / query-my-account）。<br>
+  金额口径说明：订单列表接口不返回实付金额，故以 query-order 返回的商品原价为准；
+  实付金额被优惠券全额抵扣时显示为 0。<br>
+  本项目为麦当劳程序员创意开发大赛参赛作品，由参赛者独立开发，非麦当劳官方产品；
+  餐品信息、价格与订单数据以麦当劳官方渠道实时结果为准。
+</footer>
+</div>
+</body>
+</html>

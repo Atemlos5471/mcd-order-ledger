@@ -1,5 +1,7 @@
 .env
+out/
 data/raw/
+docs/_*/
 __pycache__/
 *.pyc
 .venv/

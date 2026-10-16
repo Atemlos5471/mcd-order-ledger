@@ -1,0 +1,1098 @@
+{
+  "note": "示例数据，字段结构模拟麦当劳 MCP order-list 返回，内容为虚构脱敏数据",
+  "data": {
+    "orderList": [
+      {
+        "orderNo": "202601030002",
+        "createTime": "2026-01-03 19:05:00",
+        "payAmount": 14.0,
+        "storeName": "上海人民广场店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "玉米杯",
+            "qty": 2,
+            "price": 7.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202601100023",
+        "createTime": "2026-01-10 12:44:00",
+        "payAmount": 38.0,
+        "storeName": "上海人民广场店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "猪柳蛋麦满分",
+            "qty": 2,
+            "price": 14.0
+          },
+          {
+            "mealName": "玉米杯",
+            "qty": 1,
+            "price": 7.0
+          },
+          {
+            "mealName": "香芋派",
+            "qty": 1,
+            "price": 8.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202601160000",
+        "createTime": "2026-01-16 19:20:00",
+        "payAmount": 25.0,
+        "storeName": "上海徐家汇店",
+        "channel": "麦乐送",
+        "items": [
+          {
+            "mealName": "麦辣鸡翅(2块)",
+            "qty": 2,
+            "price": 14.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202601270024",
+        "createTime": "2026-01-27 08:20:00",
+        "payAmount": 115.0,
+        "storeName": "上海人民广场店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "猪柳蛋麦满分",
+            "qty": 2,
+            "price": 14.0
+          },
+          {
+            "mealName": "巨无霸",
+            "qty": 1,
+            "price": 25.0
+          },
+          {
+            "mealName": "麦旋风",
+            "qty": 1,
+            "price": 10.0
+          },
+          {
+            "mealName": "双层牛堡",
+            "qty": 2,
+            "price": 26.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202601280045",
+        "createTime": "2026-01-28 12:04:00",
+        "payAmount": 81.5,
+        "storeName": "上海南京西路店",
+        "channel": "麦乐送",
+        "items": [
+          {
+            "mealName": "麦香鸡",
+            "qty": 1,
+            "price": 15.0
+          },
+          {
+            "mealName": "中可乐",
+            "qty": 1,
+            "price": 9.0
+          },
+          {
+            "mealName": "巨无霸",
+            "qty": 2,
+            "price": 25.0
+          },
+          {
+            "mealName": "猪柳蛋麦满分",
+            "qty": 1,
+            "price": 14.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202603050003",
+        "createTime": "2026-03-05 12:24:00",
+        "payAmount": 37.0,
+        "storeName": "上海南京西路店",
+        "channel": "麦乐送",
+        "items": [
+          {
+            "mealName": "麦香鱼",
+            "qty": 1,
+            "price": 16.0
+          },
+          {
+            "mealName": "中薯条",
+            "qty": 1,
+            "price": 12.0
+          },
+          {
+            "mealName": "麦辣鸡翅(2块)",
+            "qty": 1,
+            "price": 14.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202603090014",
+        "createTime": "2026-03-09 12:10:00",
+        "payAmount": 39.0,
+        "storeName": "上海南京西路店",
+        "channel": "堂食外带",
+        "items": [
+          {
+            "mealName": "麦乐鸡(5块)",
+            "qty": 1,
+            "price": 13.0
+          },
+          {
+            "mealName": "香芋派",
+            "qty": 2,
+            "price": 8.0
+          },
+          {
+            "mealName": "麦旋风",
+            "qty": 1,
+            "price": 10.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202603170007",
+        "createTime": "2026-03-17 15:54:00",
+        "payAmount": 50.5,
+        "storeName": "上海静安寺店",
+        "channel": "麦乐送",
+        "items": [
+          {
+            "mealName": "热拿铁",
+            "qty": 2,
+            "price": 15.0
+          },
+          {
+            "mealName": "玉米杯",
+            "qty": 1,
+            "price": 7.0
+          },
+          {
+            "mealName": "橙汁",
+            "qty": 2,
+            "price": 10.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202603260001",
+        "createTime": "2026-03-26 12:26:00",
+        "payAmount": 51.5,
+        "storeName": "上海陆家嘴店",
+        "channel": "麦乐送",
+        "items": [
+          {
+            "mealName": "热拿铁",
+            "qty": 2,
+            "price": 15.0
+          },
+          {
+            "mealName": "麦辣鸡翅(2块)",
+            "qty": 2,
+            "price": 14.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202603270010",
+        "createTime": "2026-03-27 19:34:00",
+        "payAmount": 11.0,
+        "storeName": "上海南京西路店",
+        "channel": "麦乐送",
+        "items": [
+          {
+            "mealName": "香芋派",
+            "qty": 2,
+            "price": 8.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202604010018",
+        "createTime": "2026-04-01 12:19:00",
+        "payAmount": 67.0,
+        "storeName": "上海徐家汇店",
+        "channel": "堂食外带",
+        "items": [
+          {
+            "mealName": "中薯条",
+            "qty": 1,
+            "price": 12.0
+          },
+          {
+            "mealName": "麦香鸡",
+            "qty": 1,
+            "price": 15.0
+          },
+          {
+            "mealName": "麦香鱼",
+            "qty": 2,
+            "price": 16.0
+          },
+          {
+            "mealName": "香芋派",
+            "qty": 1,
+            "price": 8.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202604100022",
+        "createTime": "2026-04-10 22:45:00",
+        "payAmount": 85.5,
+        "storeName": "上海南京西路店",
+        "channel": "麦乐送",
+        "items": [
+          {
+            "mealName": "板烧鸡腿堡",
+            "qty": 2,
+            "price": 22.0
+          },
+          {
+            "mealName": "麦香鱼",
+            "qty": 2,
+            "price": 16.0
+          },
+          {
+            "mealName": "麦香鱼",
+            "qty": 1,
+            "price": 16.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202604170008",
+        "createTime": "2026-04-17 15:41:00",
+        "payAmount": 70.0,
+        "storeName": "上海人民广场店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "橙汁",
+            "qty": 1,
+            "price": 10.0
+          },
+          {
+            "mealName": "巨无霸",
+            "qty": 1,
+            "price": 25.0
+          },
+          {
+            "mealName": "麦旋风",
+            "qty": 2,
+            "price": 10.0
+          },
+          {
+            "mealName": "麦香鸡",
+            "qty": 1,
+            "price": 15.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202604250004",
+        "createTime": "2026-04-25 22:09:00",
+        "payAmount": 63.0,
+        "storeName": "上海南京西路店",
+        "channel": "堂食外带",
+        "items": [
+          {
+            "mealName": "玉米杯",
+            "qty": 2,
+            "price": 7.0
+          },
+          {
+            "mealName": "麦香鱼",
+            "qty": 2,
+            "price": 16.0
+          },
+          {
+            "mealName": "板烧鸡腿堡",
+            "qty": 1,
+            "price": 22.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202605160009",
+        "createTime": "2026-05-16 08:57:00",
+        "payAmount": 79.0,
+        "storeName": "上海静安寺店",
+        "channel": "堂食外带",
+        "items": [
+          {
+            "mealName": "巨无霸",
+            "qty": 2,
+            "price": 25.0
+          },
+          {
+            "mealName": "麦香鸡",
+            "qty": 1,
+            "price": 15.0
+          },
+          {
+            "mealName": "麦辣鸡翅(2块)",
+            "qty": 1,
+            "price": 14.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202605180015",
+        "createTime": "2026-05-18 12:54:00",
+        "payAmount": 23.0,
+        "storeName": "上海南京西路店",
+        "channel": "麦乐送",
+        "items": [
+          {
+            "mealName": "麦辣鸡翅(2块)",
+            "qty": 2,
+            "price": 14.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202605230027",
+        "createTime": "2026-05-23 15:03:00",
+        "payAmount": 94.0,
+        "storeName": "上海南京西路店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "热拿铁",
+            "qty": 1,
+            "price": 15.0
+          },
+          {
+            "mealName": "双层牛堡",
+            "qty": 2,
+            "price": 26.0
+          },
+          {
+            "mealName": "玉米杯",
+            "qty": 1,
+            "price": 7.0
+          },
+          {
+            "mealName": "巨无霸",
+            "qty": 1,
+            "price": 25.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202605230036",
+        "createTime": "2026-05-23 19:20:00",
+        "payAmount": 102.0,
+        "storeName": "上海静安寺店",
+        "channel": "麦乐送",
+        "items": [
+          {
+            "mealName": "猪柳蛋麦满分",
+            "qty": 2,
+            "price": 14.0
+          },
+          {
+            "mealName": "双层牛堡",
+            "qty": 1,
+            "price": 26.0
+          },
+          {
+            "mealName": "麦辣鸡腿堡",
+            "qty": 2,
+            "price": 24.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202606010040",
+        "createTime": "2026-06-01 12:11:00",
+        "payAmount": 39.0,
+        "storeName": "上海南京西路店",
+        "channel": "堂食外带",
+        "items": [
+          {
+            "mealName": "巨无霸",
+            "qty": 1,
+            "price": 25.0
+          },
+          {
+            "mealName": "玉米杯",
+            "qty": 2,
+            "price": 7.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202606040034",
+        "createTime": "2026-06-04 19:56:00",
+        "payAmount": 109.5,
+        "storeName": "上海静安寺店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "热拿铁",
+            "qty": 2,
+            "price": 15.0
+          },
+          {
+            "mealName": "麦辣鸡腿堡",
+            "qty": 2,
+            "price": 24.0
+          },
+          {
+            "mealName": "橙汁",
+            "qty": 2,
+            "price": 10.0
+          },
+          {
+            "mealName": "中可乐",
+            "qty": 2,
+            "price": 9.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202606050020",
+        "createTime": "2026-06-05 12:22:00",
+        "payAmount": 77.0,
+        "storeName": "上海南京西路店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "双层牛堡",
+            "qty": 2,
+            "price": 26.0
+          },
+          {
+            "mealName": "麦旋风",
+            "qty": 1,
+            "price": 10.0
+          },
+          {
+            "mealName": "橙汁",
+            "qty": 2,
+            "price": 10.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202606060033",
+        "createTime": "2026-06-06 15:00:00",
+        "payAmount": 90.0,
+        "storeName": "上海人民广场店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "中可乐",
+            "qty": 2,
+            "price": 9.0
+          },
+          {
+            "mealName": "巨无霸",
+            "qty": 1,
+            "price": 25.0
+          },
+          {
+            "mealName": "双层牛堡",
+            "qty": 2,
+            "price": 26.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202606140013",
+        "createTime": "2026-06-14 12:33:00",
+        "payAmount": 23.5,
+        "storeName": "上海南京西路店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "麦香鸡",
+            "qty": 2,
+            "price": 15.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202606160016",
+        "createTime": "2026-06-16 12:43:00",
+        "payAmount": 23.5,
+        "storeName": "上海陆家嘴店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "热拿铁",
+            "qty": 2,
+            "price": 15.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202606210029",
+        "createTime": "2026-06-21 19:17:00",
+        "payAmount": 9.0,
+        "storeName": "上海徐家汇店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "猪柳蛋麦满分",
+            "qty": 1,
+            "price": 14.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202607010041",
+        "createTime": "2026-07-01 12:31:00",
+        "payAmount": 17.0,
+        "storeName": "上海徐家汇店",
+        "channel": "堂食外带",
+        "items": [
+          {
+            "mealName": "麦旋风",
+            "qty": 1,
+            "price": 10.0
+          },
+          {
+            "mealName": "中薯条",
+            "qty": 1,
+            "price": 12.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202607050028",
+        "createTime": "2026-07-05 19:06:00",
+        "payAmount": 14.0,
+        "storeName": "上海静安寺店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "猪柳蛋麦满分",
+            "qty": 1,
+            "price": 14.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202607100031",
+        "createTime": "2026-07-10 19:17:00",
+        "payAmount": 79.5,
+        "storeName": "上海南京西路店",
+        "channel": "麦乐送",
+        "items": [
+          {
+            "mealName": "中薯条",
+            "qty": 1,
+            "price": 12.0
+          },
+          {
+            "mealName": "巨无霸",
+            "qty": 2,
+            "price": 25.0
+          },
+          {
+            "mealName": "中薯条",
+            "qty": 2,
+            "price": 12.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202607140026",
+        "createTime": "2026-07-14 15:49:00",
+        "payAmount": 14.0,
+        "storeName": "上海南京西路店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "猪柳蛋麦满分",
+            "qty": 1,
+            "price": 14.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202607150011",
+        "createTime": "2026-07-15 08:41:00",
+        "payAmount": 31.0,
+        "storeName": "上海人民广场店",
+        "channel": "堂食外带",
+        "items": [
+          {
+            "mealName": "橙汁",
+            "qty": 2,
+            "price": 10.0
+          },
+          {
+            "mealName": "香芋派",
+            "qty": 2,
+            "price": 8.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202607280017",
+        "createTime": "2026-07-28 12:17:00",
+        "payAmount": 66.0,
+        "storeName": "上海静安寺店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "猪柳蛋麦满分",
+            "qty": 1,
+            "price": 14.0
+          },
+          {
+            "mealName": "玉米杯",
+            "qty": 2,
+            "price": 7.0
+          },
+          {
+            "mealName": "麦乐鸡(5块)",
+            "qty": 1,
+            "price": 13.0
+          },
+          {
+            "mealName": "麦香鸡",
+            "qty": 2,
+            "price": 15.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202607280043",
+        "createTime": "2026-07-28 12:17:00",
+        "payAmount": 82.0,
+        "storeName": "上海静安寺店",
+        "channel": "堂食外带",
+        "items": [
+          {
+            "mealName": "板烧鸡腿堡",
+            "qty": 1,
+            "price": 22.0
+          },
+          {
+            "mealName": "巨无霸",
+            "qty": 2,
+            "price": 25.0
+          },
+          {
+            "mealName": "麦乐鸡(5块)",
+            "qty": 1,
+            "price": 13.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202607280025",
+        "createTime": "2026-07-28 12:22:00",
+        "payAmount": 64.0,
+        "storeName": "上海徐家汇店",
+        "channel": "堂食外带",
+        "items": [
+          {
+            "mealName": "麦辣鸡腿堡",
+            "qty": 2,
+            "price": 24.0
+          },
+          {
+            "mealName": "香芋派",
+            "qty": 1,
+            "price": 8.0
+          },
+          {
+            "mealName": "麦乐鸡(5块)",
+            "qty": 1,
+            "price": 13.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202608060030",
+        "createTime": "2026-08-06 19:28:00",
+        "payAmount": 50.0,
+        "storeName": "上海静安寺店",
+        "channel": "堂食外带",
+        "items": [
+          {
+            "mealName": "板烧鸡腿堡",
+            "qty": 1,
+            "price": 22.0
+          },
+          {
+            "mealName": "中薯条",
+            "qty": 1,
+            "price": 12.0
+          },
+          {
+            "mealName": "香芋派",
+            "qty": 2,
+            "price": 8.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202608130035",
+        "createTime": "2026-08-13 12:24:00",
+        "payAmount": 51.0,
+        "storeName": "上海陆家嘴店",
+        "channel": "麦乐送",
+        "items": [
+          {
+            "mealName": "麦旋风",
+            "qty": 2,
+            "price": 10.0
+          },
+          {
+            "mealName": "香芋派",
+            "qty": 2,
+            "price": 8.0
+          },
+          {
+            "mealName": "中可乐",
+            "qty": 2,
+            "price": 9.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202608210021",
+        "createTime": "2026-08-21 19:50:00",
+        "payAmount": 92.0,
+        "storeName": "上海徐家汇店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "双层牛堡",
+            "qty": 1,
+            "price": 26.0
+          },
+          {
+            "mealName": "板烧鸡腿堡",
+            "qty": 1,
+            "price": 22.0
+          },
+          {
+            "mealName": "板烧鸡腿堡",
+            "qty": 2,
+            "price": 22.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202609030006",
+        "createTime": "2026-09-03 19:23:00",
+        "payAmount": 9.0,
+        "storeName": "上海陆家嘴店",
+        "channel": "麦乐送",
+        "items": [
+          {
+            "mealName": "中可乐",
+            "qty": 1,
+            "price": 9.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202609130038",
+        "createTime": "2026-09-13 15:15:00",
+        "payAmount": 87.0,
+        "storeName": "上海人民广场店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "麦辣鸡腿堡",
+            "qty": 2,
+            "price": 24.0
+          },
+          {
+            "mealName": "麦辣鸡翅(2块)",
+            "qty": 1,
+            "price": 14.0
+          },
+          {
+            "mealName": "热拿铁",
+            "qty": 2,
+            "price": 15.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202609160037",
+        "createTime": "2026-09-16 08:15:00",
+        "payAmount": 93.5,
+        "storeName": "上海静安寺店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "中薯条",
+            "qty": 2,
+            "price": 12.0
+          },
+          {
+            "mealName": "麦辣鸡翅(2块)",
+            "qty": 2,
+            "price": 14.0
+          },
+          {
+            "mealName": "麦辣鸡翅(2块)",
+            "qty": 2,
+            "price": 14.0
+          },
+          {
+            "mealName": "橙汁",
+            "qty": 2,
+            "price": 10.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202609180042",
+        "createTime": "2026-09-18 22:22:00",
+        "payAmount": 80.0,
+        "storeName": "上海静安寺店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "麦辣鸡翅(2块)",
+            "qty": 2,
+            "price": 14.0
+          },
+          {
+            "mealName": "玉米杯",
+            "qty": 2,
+            "price": 7.0
+          },
+          {
+            "mealName": "麦乐鸡(5块)",
+            "qty": 2,
+            "price": 13.0
+          },
+          {
+            "mealName": "热拿铁",
+            "qty": 1,
+            "price": 15.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202609230039",
+        "createTime": "2026-09-23 22:11:00",
+        "payAmount": 96.0,
+        "storeName": "上海徐家汇店",
+        "channel": "堂食外带",
+        "items": [
+          {
+            "mealName": "板烧鸡腿堡",
+            "qty": 2,
+            "price": 22.0
+          },
+          {
+            "mealName": "玉米杯",
+            "qty": 1,
+            "price": 7.0
+          },
+          {
+            "mealName": "巨无霸",
+            "qty": 2,
+            "price": 25.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202610210044",
+        "createTime": "2026-10-03 12:58:00",
+        "payAmount": 89.0,
+        "storeName": "上海徐家汇店",
+        "channel": "麦乐送",
+        "items": [
+          {
+            "mealName": "麦乐鸡(5块)",
+            "qty": 1,
+            "price": 13.0
+          },
+          {
+            "mealName": "麦辣鸡翅(2块)",
+            "qty": 1,
+            "price": 14.0
+          },
+          {
+            "mealName": "玉米杯",
+            "qty": 2,
+            "price": 7.0
+          },
+          {
+            "mealName": "麦辣鸡腿堡",
+            "qty": 2,
+            "price": 24.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202610050019",
+        "createTime": "2026-10-05 12:28:00",
+        "payAmount": 16.0,
+        "storeName": "上海陆家嘴店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "香芋派",
+            "qty": 2,
+            "price": 8.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202610170032",
+        "createTime": "2026-10-06 08:49:00",
+        "payAmount": 99.5,
+        "storeName": "上海徐家汇店",
+        "channel": "堂食外带",
+        "items": [
+          {
+            "mealName": "板烧鸡腿堡",
+            "qty": 2,
+            "price": 22.0
+          },
+          {
+            "mealName": "麦旋风",
+            "qty": 1,
+            "price": 10.0
+          },
+          {
+            "mealName": "麦辣鸡翅(2块)",
+            "qty": 2,
+            "price": 14.0
+          },
+          {
+            "mealName": "麦辣鸡腿堡",
+            "qty": 1,
+            "price": 24.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202610130005",
+        "createTime": "2026-10-13 12:13:00",
+        "payAmount": 29.0,
+        "storeName": "上海徐家汇店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "麦香鱼",
+            "qty": 2,
+            "price": 16.0
+          }
+        ]
+      },
+      {
+        "orderNo": "202610140012",
+        "createTime": "2026-10-14 22:12:00",
+        "payAmount": 27.0,
+        "storeName": "上海南京西路店",
+        "channel": "到店取餐",
+        "items": [
+          {
+            "mealName": "热拿铁",
+            "qty": 2,
+            "price": 15.0
+          }
+        ]
+      }
+    ]
+  },
+  "nutrition": [
+    {
+      "name": "巨无霸",
+      "energy": 550,
+      "protein": 29.4
+    },
+    {
+      "name": "板烧鸡腿堡",
+      "energy": 450,
+      "protein": 7.5
+    },
+    {
+      "name": "麦辣鸡腿堡",
+      "energy": 570,
+      "protein": 15.1
+    },
+    {
+      "name": "双层牛堡",
+      "energy": 500,
+      "protein": 18.7
+    },
+    {
+      "name": "麦香鸡",
+      "energy": 400,
+      "protein": 10.2
+    },
+    {
+      "name": "麦香鱼",
+      "energy": 340,
+      "protein": 13.6
+    },
+    {
+      "name": "麦乐鸡(5块)",
+      "energy": 230,
+      "protein": 10.5
+    },
+    {
+      "name": "中薯条",
+      "energy": 320,
+      "protein": 17.4
+    },
+    {
+      "name": "中可乐",
+      "energy": 150,
+      "protein": 22.5
+    },
+    {
+      "name": "麦旋风",
+      "energy": 260,
+      "protein": 7.3
+    },
+    {
+      "name": "香芋派",
+      "energy": 250,
+      "protein": 11.1
+    },
+    {
+      "name": "玉米杯",
+      "energy": 70,
+      "protein": 29.2
+    },
+    {
+      "name": "猪柳蛋麦满分",
+      "energy": 420,
+      "protein": 10.9
+    },
+    {
+      "name": "热拿铁",
+      "energy": 120,
+      "protein": 13.2
+    },
+    {
+      "name": "麦辣鸡翅(2块)",
+      "energy": 160,
+      "protein": 6.4
+    },
+    {
+      "name": "橙汁",
+      "energy": 110,
+      "protein": 15.7
+    }
+  ]
+}
